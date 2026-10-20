@@ -50,7 +50,7 @@ cd password-strength-analyzer
 Run the analyzer:
 
 ```bash
-python regex.py
+python main.py
 ```
 
 ## Example
@@ -67,7 +67,29 @@ Suggestions:
 - Add a special character.
 - Avoid predictable sequences like abcd or 1234.
 ```
+## Project Structure
 
+```text
+password-strength-analyzer/
+│
+├── README.md       # Project overview, features, and instructions
+├── main.py         # Main program entry point (if used)
+├── function.py     # Password-checking functions (if used)
+├── anlyzer.py      # Additional analyzer logic (if used)
+└──
+```
+
+### File Purpose
+
+| File | Purpose |
+|---|---|
+| `README.md` | Project documentation and usage instructions |
+| `main.py` | Entry point for running the program, if configured |
+| `regex.py` | Checks password properties using regular expressions |
+| `function.py` | May contain reusable functions for password checks |
+| `anlyzer.py` | May contain additional analysis logic |
+
+*Note: File purposes should be updated to match the actual code in each file.*
 ## What I Learned
 
 Through this project, I practiced:
