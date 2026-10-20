@@ -76,7 +76,6 @@ password-strength-analyzer/
 ├── main.py         # Main program entry point (if used)
 ├── function.py     # Password-checking functions (if used)
 ├── anlyzer.py      # Additional analyzer logic (if used)
-└──
 ```
 
 ### File Purpose
@@ -85,7 +84,6 @@ password-strength-analyzer/
 |---|---|
 | `README.md` | Project documentation and usage instructions |
 | `main.py` | Entry point for running the program, if configured |
-| `regex.py` | Checks password properties using regular expressions |
 | `function.py` | May contain reusable functions for password checks |
 | `anlyzer.py` | May contain additional analysis logic |
 
