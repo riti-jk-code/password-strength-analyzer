@@ -67,16 +67,6 @@ Suggestions:
 - Add a special character.
 - Avoid predictable sequences like abcd or 1234.
 ```
-## Project Structure
-
-```text
-password-strength-analyzer/
-│
-├── README.md       # Project overview, features, and instructions
-├── main.py         # Main program entry point (if used)
-├── function.py     # Password-checking functions (if used)
-├── anlyzer.py      # Additional analyzer logic (if used)
-```
 
 ### File Purpose
 
