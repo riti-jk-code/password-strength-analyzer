@@ -50,7 +50,7 @@ cd password-strength-analyzer
 Run the analyzer:
 
 ```bash
-main.py
+python main.py
 ```
 
 ## Example
