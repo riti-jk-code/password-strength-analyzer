@@ -73,9 +73,9 @@ Suggestions:
 | File | Purpose |
 |---|---|
 | `README.md` | Project documentation and usage instructions |
-| `main.py` | Entry point for running the program, if configured |
-| `function.py` | May contain reusable functions for password checks |
-| `anlyzer.py` | May contain additional analysis logic |
+| `main.py` | Analyzes password strength using Regex-based character checks and a scoring system |
+| `function.py` | Demonstrates a reusable function for checking whether a password contains a digit |
+| `anlyzer.py` | Additional analyzer logic — update this description based on its actual code |
 
 *Note: File purposes should be updated to match the actual code in each file.*
 ## What I Learned
