@@ -1,8 +1,8 @@
-# 🔐 Password Strength Analyzer
+# Password Strength Analyzer
 
 A Python-based password analysis tool that evaluates password strength using **Regular Expressions (Regex)** and rule-based checks. It identifies common password patterns and provides suggestions to help users create stronger passwords.
 
-## ✨ Features
+## Features
 
 - **Length Validation** — Checks whether the password meets the minimum length requirement.
 - **Character Validation** — Detects uppercase letters, lowercase letters, digits, and special characters.
@@ -12,13 +12,13 @@ A Python-based password analysis tool that evaluates password strength using **R
 - **Strength Classification** — Classifies passwords as Weak, Moderate, or Strong based on predefined rules.
 - **Improvement Suggestions** — Provides feedback based on the checks that fail.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Core Concept:** Regular Expressions (`re` module)
 - **Other Concepts:** Functions, Conditional Statements, String Handling
 
-## ⚙️ How It Works
+##  How It Works
 
 1. The user enters a sample password.
 2. The program checks its length and character composition.
@@ -26,7 +26,7 @@ A Python-based password analysis tool that evaluates password strength using **R
 4. The program checks whether the password matches a predefined common-password list.
 5. A score, strength classification, warnings, and suggestions are displayed.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -53,7 +53,7 @@ Run the analyzer:
 python regex.py
 ```
 
-## 💻 Example
+## Example
 
 ```text
 Enter your password: abcd1234
@@ -68,7 +68,7 @@ Suggestions:
 - Avoid predictable sequences like abcd or 1234.
 ```
 
-## 📚 What I Learned
+## What I Learned
 
 Through this project, I practiced:
 
@@ -79,7 +79,7 @@ Through this project, I practiced:
 - Generating user-friendly feedback
 - Using Git and GitHub for version control and project documentation
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Expand the common-password database
 - Detect more sequential patterns
@@ -87,11 +87,11 @@ Through this project, I practiced:
 - Add automated unit tests
 - Develop a simple graphical user interface
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is intended for educational purposes. Its strength classification is based on a limited set of rules and does not guarantee real-world password security. Avoid entering real or sensitive passwords into this tool.
 
-## 👩‍💻 Author
+## Author
 
 **Ritika Mondal**
 
